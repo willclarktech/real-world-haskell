@@ -1,0 +1,19 @@
+Name:           mypretty
+Version:        0.1
+
+-- This is a comment
+
+Synopsis:       My pretty printing library, with JSON support
+Description:
+                This spans multiple lines because it is indented.
+                Here is another line.
+
+Cabal-Version:  >= 1.2
+build-type:     Simple
+
+library
+    Exposed-Modules:    Prettify
+                        PrettyJSON
+                        SimpleJSON
+    Build-Depends:      base >= 2.0
+
